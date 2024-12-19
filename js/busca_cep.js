@@ -1,5 +1,5 @@
 const inputCep = document.getElementById("cep");
-var inputBairro = document.getElementById("bairro");
+let inputBairro = document.getElementById("bairro");
 const botaoPesquisa = document.getElementById("btnPesquisar");
 botaoPesquisa.addEventListener("click", getCEP);
 
